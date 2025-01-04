@@ -1,0 +1,16 @@
+@font-face {
+  font-family: "odin-font";
+  src: url("../public/Norse-Bold.otf");  
+} 
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.app-container {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+}

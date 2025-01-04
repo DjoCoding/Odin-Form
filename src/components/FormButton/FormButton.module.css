@@ -1,0 +1,25 @@
+.container {
+    width: 100%;
+    padding: 20px;
+}
+
+.button {
+    padding: 10px 50px;
+    border: none;
+    outline: none;
+    border-radius: 20px;
+    background-color: rgb(14, 216, 14, 80%);
+    transition: all 0.3s ease;
+    cursor: pointer;
+    font-size: 25px;
+    color: white;
+}
+
+.button:hover {
+    background-color: rgb(14, 216, 14, 100%);
+}
+
+.button:focus {
+    background-color: rgb(14, 216, 14, 100%);
+    border: 1px solid rgb(0, 0, 0, 20%)
+}

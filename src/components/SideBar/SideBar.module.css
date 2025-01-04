@@ -1,0 +1,29 @@
+.container {
+    flex: 1;
+    background: linear-gradient(135deg, #1e3c72, #2a5298);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.logoContainer {
+    background-color: rgb(0, 0, 0, 50%);
+    width: 100%;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.logoContainer > img {
+    width: 90px;
+}
+
+.logoContainer:last-child {
+    font-size: 30px;
+    font-weight: bold;
+    font-family: "odin-font", sans-serif;
+}
